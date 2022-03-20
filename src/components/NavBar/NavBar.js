@@ -8,7 +8,7 @@ export default function NavBar() {
     return (
         <header className="navbar">
             <div>
-                <div className='home'><Link to="/" className='link'>Movie App</Link></div>
+                <div className='home'>Movie App</div>
             </div>
             <nav>
                 <ul className="list">

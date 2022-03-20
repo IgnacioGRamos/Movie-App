@@ -12,6 +12,8 @@
 }
 .label {
     padding-right: 10px;
+    color: black;
+    font-size:large;
 }
 
 .movie {
@@ -28,4 +30,18 @@
 .link {
     text-decoration: none;
     color: black;
+}
+
+.buscador {
+    margin-left: 50px;
+}
+
+.msg {
+    margin-top: 30px;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
 }

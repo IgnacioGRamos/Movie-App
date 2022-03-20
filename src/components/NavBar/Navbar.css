@@ -50,13 +50,10 @@
 .home {
     padding: 5px;
     margin: 10px;
-    background-color: white;
+    background-color: gainsboro;
     border-radius: 5px;
 }
 
-.home:hover {
-    background-color: aquamarine;
-}
 
 .link {
     text-decoration: none;

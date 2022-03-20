@@ -40,19 +40,24 @@
     margin-left: 50px;
 }
 
-.msg {
-    margin-top: 30px;
-    padding: 5px;
-    background-color: aquamarine;
-    border-radius: 5px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .button {
     border-radius: 5px;
 }
 .button:hover {
     background-color: gray;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.msg {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
 }

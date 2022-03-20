@@ -9,14 +9,14 @@ export class ConnectedList extends Component {
   render() {
     return (
       <div>
-        <h2>Películas Favoritas</h2>
+        <h2 className="fav">Películas Favoritas</h2>
         <ul>
           {this.props.movies.map(movie => 
-        <li>
-          <Link to={`/movie/${movie.id}`}>
+        <li className="movie">
+          <Link to={`/movie/${movie.id}`} className="link">
           {movie.title}
           </Link>
-          <button onClick={() => this.props.removeMovieFavorite(movie.title)}>X</button>
+          <button className="button" onClick={() => this.props.removeMovieFavorite(movie.title)}>X</button>
         </li>
           )
           }

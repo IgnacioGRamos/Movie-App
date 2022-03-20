@@ -47,7 +47,7 @@ export class Buscador extends Component {
                 <Link to={`/movie/${movie.imdbID}`} className="link" >
                 {movie.Title}
                 </Link>
-                <button onClick={() => this.props.addMovieFavorite({title: movie.Title, id: movie.imdbID})}>Fav</button>
+                <button className="button" onClick={() => this.props.addMovieFavorite({title: movie.Title, id: movie.imdbID})}>Fav</button>
               </li>
               ):
               <div className="msg">Busca la pelicula que te imagines</div>

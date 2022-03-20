@@ -13,3 +13,19 @@
 .label {
     padding-right: 10px;
 }
+
+.movie {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}

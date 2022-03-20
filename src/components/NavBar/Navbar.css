@@ -45,3 +45,20 @@
     background-color: #808080;
     color: white;
 }
+
+
+.home {
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.home:hover {
+    background-color: aquamarine;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

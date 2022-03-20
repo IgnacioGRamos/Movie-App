@@ -43,13 +43,13 @@ export class Buscador extends Component {
         </form>
         <ul>
           {this.props.movies.map(movie => 
-        <li key={movie.imdbID}>
-          <Link to={`/movie/${movie.imdbID}`} >
-          {movie.Title}
-          </Link>
-          <button onClick={() => this.props.addMovieFavorite({title: movie.Title, id: movie.imdbID})}>Fav</button>
-        </li>
-          )
+              <li key={movie.imdbID} className="movie">
+                <Link to={`/movie/${movie.imdbID}`} className="link" >
+                {movie.Title}
+                </Link>
+                <button onClick={() => this.props.addMovieFavorite({title: movie.Title, id: movie.imdbID})}>Fav</button>
+              </li>
+              )
           }
         </ul>
       </div>

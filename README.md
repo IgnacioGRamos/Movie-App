@@ -1,7 +1,8 @@
 # Movie App
 
 <p>La app consiste de una página principal donde podemos buscar cualquier tipo de películas y obtenemos todas las que coinciden con el nombre buscado. Podemos obtener mas información de cada una de ellas, también seleccionarlas como favoritas y almacenarlas en otro apartado donde podemos ver nuestras peliculas favoritas.</p>
-
+<br/>
+<p>Pagina principal con listado de peliculas que coinciden con la busqueda relizada, cada una de las peliculas posee un boton para seleccionarla como favorita</p>
 <img src='./src/img/movieapp11.png' />
 <br/>
 <img src='./src/img/movieapp22.png' />

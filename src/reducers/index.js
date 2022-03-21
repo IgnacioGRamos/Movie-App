@@ -16,6 +16,7 @@ const initialState = {
           moviesFavourites: state.moviesFavourites.concat(action.payload)
         }
     }
+    
     if (action.type === "GET_MOVIES") {
         return {
           ...state,

@@ -2,9 +2,10 @@
 
 <p>La app consiste de una página principal donde podemos buscar cualquier tipo de películas y obtenemos todas las que coinciden con el nombre buscado. Podemos obtener mas información de cada una de ellas, también seleccionarlas como favoritas y almacenarlas en otro apartado donde podemos ver nuestras peliculas favoritas.</p>
 <br/>
-<p>Pagina principal con listado de peliculas que coinciden con la busqueda relizada, cada una de las peliculas posee un boton para seleccionarla como favorita</p>
+<p>Página principal con listado de películas que coinciden con la busqueda relizada, cada una de las películas posee un botón para seleccionarla como favorita</p>
 <img src='./src/img/movieapp11.png' />
 <br/>
+<p>Apartado donde podemos ver nuestra lista de peliculas favoritas, cada una con su respectivo botón para poder sacarlas de la lista</p>
 <img src='./src/img/movieapp22.png' />
 <img src='./src/img/movieapp33.png' />
 
